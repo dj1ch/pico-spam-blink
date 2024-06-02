@@ -6,6 +6,8 @@ include(${CMAKE_CURRENT_LIST_DIR}/cmake/pico_sdk_import.cmake)
 
 project(spam-blink C CXX ASM)
 
+pico_sdk_init()
+
 add_executable(spam-blink
     spam-blink.c
 )
