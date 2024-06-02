@@ -8,8 +8,11 @@ project(spam-blink C CXX ASM)
 
 pico_sdk_init()
 
+include_directories(include)
+
 add_executable(spam-blink
-    spam-blink.c
+    src/spam-blink.c
+    include/spam-blink.h
 )
 
 target_link_libraries(spam-blink 

@@ -3,7 +3,7 @@
  * make the pico blink
 */
 
-#include "blink.h"
+#include "spam-blink.h"
 
 int main() {
     const uint8_t LED = PICO_DEFAULT_LED_PIN;
